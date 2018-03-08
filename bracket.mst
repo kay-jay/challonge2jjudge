@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{title}}</title>
+  </head>
+  <body><br>
+    <div class="trn_title">{{title}}</div><br>
+    <span class="trn_prop">{{game}}</span><br>
+    <span class="trn_prop"></span>
+    <!--Results: {{results}}-->
+    <br>
+    <iframe src="{{& url}}" width="100%" height="1000" frameborder="0" scrolling="auto" allowtransparency="true" onLoad="resizeIframe()"></iframe>
+  </body>
+</html>
